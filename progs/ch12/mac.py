@@ -8,3 +8,5 @@ print(cur_path.resolve())
 print(cur_path.cwd())
 
 print(os.name)
+exists = os.path.exists('mac.py')
+print(f"Does 'mac.py' exist? {exists}")
