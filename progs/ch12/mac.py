@@ -6,3 +6,5 @@ print(os.listdir(os.curdir))
 cur_path = pathlib.Path()
 print(cur_path.resolve())
 print(cur_path.cwd())
+
+print(os.name)
